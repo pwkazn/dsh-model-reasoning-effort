@@ -1,0 +1,6 @@
+# dsh-model-reasoning-effort bundle patch: inserts its Loader row into the web
+# profile roster. The host half registers nothing; the browser half is
+# discovered through the package's `dsh.client` declaration.
+- insert:
+    - id: model-reasoning-effort
+      name: 'dsh-model-reasoning-effort'
