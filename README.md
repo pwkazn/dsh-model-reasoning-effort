@@ -32,12 +32,6 @@
 dsh plugin --profile web add git+https://github.com/pwkazn/dsh-model-reasoning-effort.git
 ```
 
-开发目录直接链接进 web profile：
-
-```bash
-dsh plugin --profile web add link:/home/admin/dsh-model-reasoning
-```
-
 或复制到 profile 的 `node_modules` 再由插件管理器选中（不推荐，容易在下次安装时丢失）。重启/热重载后，打开 **设置 → 模型**，页面底部出现「推理强度（自定义模型）」。
 
 ## 使用
