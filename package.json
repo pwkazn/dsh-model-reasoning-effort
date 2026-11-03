@@ -34,7 +34,8 @@
     "client.js",
     "cordis.patch.yml",
     "README.md",
-    "docs"
+    "docs",
+    "README.en.md"
   ],
   "dsh": {
     "engines": {
