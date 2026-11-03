@@ -2,6 +2,25 @@
   "name": "dsh-model-reasoning-effort",
   "version": "0.1.0",
   "description": "Declare per-model reasoning efforts (thinking levels and their wire values) for custom pi-ai models from the DSH Models settings page.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "reasoning-effort",
+    "reasoning",
+    "thinking",
+    "llm-pi-ai",
+    "models-settings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwkazn/dsh-model-reasoning-effort.git"
+  },
+  "homepage": "https://github.com/pwkazn/dsh-model-reasoning-effort#readme",
+  "bugs": {
+    "url": "https://github.com/pwkazn/dsh-model-reasoning-effort/issues"
+  },
   "type": "module",
   "main": "index.js",
   "exports": {

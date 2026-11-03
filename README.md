@@ -1,5 +1,8 @@
 # dsh-model-reasoning-effort
 
+[![test](https://github.com/pwkazn/dsh-model-reasoning-effort/actions/workflows/test.yml/badge.svg)](https://github.com/pwkazn/dsh-model-reasoning-effort/actions/workflows/test.yml)
+[![license](https://img.shields.io/github/license/pwkazn/dsh-model-reasoning-effort)](https://github.com/pwkazn/dsh-model-reasoning-effort/blob/main/LICENSE)
+
 为 DeepSeek Harness 的 **自定义 pi-ai 模型**声明推理强度（思考档位）的插件。
 
 ![Models 页中的推理强度面板](docs/models-panel.png)
@@ -20,6 +23,12 @@
 - **中英双语**，随界面语言切换。
 
 ## 安装
+
+从 GitHub 安装（无需构建，纯 ESM + 手写客户端 bundle）：
+
+```bash
+dsh plugin --profile web add git+https://github.com/pwkazn/dsh-model-reasoning-effort.git
+```
 
 开发目录直接链接进 web profile：
 
